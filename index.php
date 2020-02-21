@@ -99,5 +99,17 @@ $f3->route('GET /@item', function($f3, $params){
             $f3->error(404);
     }
 });
+
+
+$f3->route('GET /view', function($f3) {
+    global $db;
+    $results = $db->getList();
+    foreach($results as $result) {
+        foreach($result as $item) {
+            echo "$item ";
+        }
+        echo "<br>";
+    }
+});
 // Run F3
 $f3->run();
