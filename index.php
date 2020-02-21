@@ -21,6 +21,7 @@ $f3->set('DEBUG', 3);
 $f3->route('GET /', function () {
     echo "<h1> My Pets <br></h1>";
     echo "<a href='order'>Order a Pet</a>";
+
     //$views = new Template();
     //echo $views->render("views/home.html");
 });
