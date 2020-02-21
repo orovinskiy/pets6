@@ -1,0 +1,19 @@
+{
+  "name" : "it_328/pets2",
+  "authors" : [
+    {
+      "name" : "Keller Flint",
+      "email" : "kflint0068@gmail.com"
+    },
+    {
+      "name" : "Oleg Rovinskiy",
+      "email" : "Orovinskiy@mail.greenriver.edu"
+    }
+  ],
+  "require" : {
+    "bcosca/fatfree-core" : "dev-master"
+  },
+  "autoload": {
+    "classmap": ["classes/"]
+  }
+}
