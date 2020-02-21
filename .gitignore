@@ -1,4 +1,6 @@
 vendor/
 temp/
 
+model/connnection.php
+
 composer.lock
