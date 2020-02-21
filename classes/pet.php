@@ -6,7 +6,7 @@ class Pet
     private $_color;
     private $_type;
 
-    function __construct($name="unknown",$color="?",$type="?"){
+    function __construct($type="?",$name="unknown",$color="?"){
         $this->_name = $name;
         $this->_color = $color;
         $this->_type =  $type;
