@@ -71,6 +71,8 @@ $f3->route('GET|POST /order2', function($f3) {
 
 $f3->route('POST|GET /results', function() {
     var_dump($_SESSION);
+    global $db;
+    $db->addPet($_SESSION['animal']->getName(),$_SESSION['animal']->getColor(),$_SESSION['animal']->getType());
     $view = new Template();
     echo $view->render('views/results.html');
 });
