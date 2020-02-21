@@ -16,7 +16,7 @@ $f3->set('colors', array('pink', 'green', 'blue'));
 
 //set debug level
 $f3->set('DEBUG', 3);
-$db = new DBH();
+$db = new DHB();
 
 // Define a default route
 $f3->route('GET /', function () {
